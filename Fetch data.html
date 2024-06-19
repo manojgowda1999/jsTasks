@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <title>test case</title>
+</head>
+<body>
+   
+<style>
+.main-container{
+    margin: auto;
+    width: 46%;
+}
+.button{
+width: 50%;
+padding: 10px;
+margin-bottom: 15px;
+}
+</style>
+
+<script>
+ async function fetchTheData(){
+    const getUrlData = document.getElementById('inputData').value;
+    let response = await fetch (getUrlData);
+    let data = await response.json();
+ 
+    let userDataDiv = document.getElementById('jsonData');
+
+    if (true) {
+        userDataDiv.innerHTML = JSON.stringify(data);
+
+        
+    } else {
+        userDataDiv.innerHTML = "Data is not getting...";
+    }
+
+    let results = data.forEach(el => {
+            let test = userDataDiv.innerHTML = el.name
+        console.log(el.name);
+        userDataDiv.innerHTML = el.name
+
+    });
+ 
+};
+
+</script>
+
+            </head>
+                          <div class="main-container">
+            <h2> Fetch The URL Data.... </h2>                
+                <div>
+
+                <input id="inputData" class="button" type="url" placeholder="Enter the URL" />
+        
+                </div>
+
+              
+                <button class="submit-button" placeholder="submit" onclick="fetchTheData()">
+                Submit
+                </button>
+
+                <div id="jsonData">
+                </div>
+            </div>
+            </body>
+</html>
