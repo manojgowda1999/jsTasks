@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ProductDetails from './components/productDetails';
+import ProductPage from './components/productPage';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(
+  document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <empName></empName>
+    <ProductDetails></ProductDetails>
+    <ProductPage></ProductPage>
   </React.StrictMode>
 );
 
