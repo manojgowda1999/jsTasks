@@ -5,15 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ProductDetails from './components/productDetails';
 import ProductPage from './components/productPage';
+// import ProductList from './components/ProductList';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <empName></empName>
-    <ProductDetails></ProductDetails>
-    <ProductPage></ProductPage>
+    {/* <empName></empName> */}
+    {/* <ProductDetails></ProductDetails>
+    <ProductPage></ProductPage> */}
+    {/* <ProductList></ProductList> */}
+
   </React.StrictMode>
 );
 

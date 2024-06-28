@@ -10,7 +10,7 @@ const ProductPage = () => {
     const productObj = {
         brandName : "nokia",
         price : 20000,
-        decription : "50%",
+        description : "50%",
     }
 
   return (
