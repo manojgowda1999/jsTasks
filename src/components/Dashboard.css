@@ -1,0 +1,28 @@
+.card-container{
+    /* display: flex;
+    background-color: red; */
+}
+.header-content{
+    margin: auto;
+    width: 14%;
+}
+h1{
+    font-size: 21px !important
+}
+li{
+    border: 1px solid black;
+    width: 23%;
+    padding: 21px;
+    border-radius: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+button{
+    border-radius: 4px !important;
+}
+h3{
+    font-size: 17px !important;
+}
+h2{
+    padding-left: 3%;
+}

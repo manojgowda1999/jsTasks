@@ -11,6 +11,12 @@ import Dashboard from './components/Dashboard';
 
 
 const App = () => {
+
+
+
+
+
+
   return (
     <div className="App">
       {/* <ProductPage></ProductPage> */}
@@ -20,6 +26,8 @@ const App = () => {
       {/* <useStateParent></useStateParent>
       <useStateChild></useStateChild> */}
       <Dashboard></Dashboard>
+      {/* <ProductList></ProductList> */}
+    
   
     </div>
   );

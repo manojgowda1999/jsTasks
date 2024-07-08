@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ProductDetails from './components/productDetails';
 import ProductPage from './components/productPage';
-// import ProductList from './components/ProductList';
+import ProductList from './components/ProductList'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root'));
