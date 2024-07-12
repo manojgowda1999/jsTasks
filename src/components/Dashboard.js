@@ -92,7 +92,7 @@ let results = products.forEach((ele)=> {
       <div className='header-content'>
       <h1>Product Dashboard</h1>
       <input 
-        type="text" 
+              type="text"
         className='form-control'
         placeholder="Search for item" 
         value={searchTerm} 

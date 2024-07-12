@@ -1,0 +1,29 @@
+.main-container{
+    /* position: relative;
+    top: 23px;
+    margin: auto;
+    width: 23%; */
+
+}
+
+/* .ul-list{
+    position: absolute;
+    top: 41px;
+
+    width: 750px;
+} */
+.list-items{
+    background-color: lightgrey
+
+}
+.list-items:hover{
+    box-shadow: 
+    0 -10px 10px -5px lightblue,  
+    10px 0 10px -5px lightblue,   
+    0 10px 10px -5px lightblue,  
+    -10px 0 10px -5px lightblue;  
+  
+}
+.test-case{
+    padding-left: 6px;
+}

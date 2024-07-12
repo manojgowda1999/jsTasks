@@ -1,0 +1,16 @@
+.main-container{
+   
+        top: 23px;
+        margin: auto;
+        width: 50%;
+        /* line-height: 20px */
+        padding: 10px;
+    
+    }
+    .input-search{
+        /* padding-left: 10px; */
+        margin-left: 10px;
+    }
+    label {
+        padding-right: 10px;
+    }
